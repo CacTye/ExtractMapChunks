@@ -1,6 +1,6 @@
 # mapReset.py
 
-This very simple script allows you to delete portions of a Project Zomboid
+This very simple script allows you to extract portions of a Project Zomboid
  map by simply providing X,Y co-ordinates as well as chunk references.
 
 ## Understanding the co-ordinates
@@ -57,22 +57,18 @@ This would definte the start of Muldraugh as 10030x8984 in Chunk 32x29 and
 
 ## Caveats
 
-This has been written and tested on Linxu only. It may require a little tweaking
+This has been written and tested on Linux only. It may require a little tweaking
  to fuction correclty on windows.  Primarily due to the pathing differences
  in file paths in config.json
 
-In `mapreset.py` you will need to tweak line #1 to properly represent the
+In `mapextract.py` you will need to tweak line #1 to properly represent the
  python binary location or remove it entirely.
 
 In `config.json` you will need to change your save file paths and if on
  windows, use double-slashes for paths.  For example `C:\Users\JSmith` should
- be written as `C:\\Users\\JSmith`
+ be written as `C:\\Users\\JSmith` You will also need to create an output directory for the extracted chunks to go to. 
 
-## !!! WARNING !!!
 
-When you run this script and choose a region **IT WILL PERMANENTLY DELETE
- FILES FROM YOUR SAVED WORLD**.  If you do not know what you're doing turn
- back now. This is unrecoverable.
 
 Do not contact me if you mess up. This is on you.
 Turn back now, don't run this script if you are not 100% sure of what you
