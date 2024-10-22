@@ -51,9 +51,10 @@ For example, Muldraugh would look like this:
 
 This would definte the start of Muldraugh as 10030x8984 in Chunk 32x29 and
  ending at 11428x10807 in Chunk 38x36.  This boundary would then allow the
- script to determine which files are located in this area and delete them from
- the map which would cause a complete respawn the next time a person visited
- this area.
+ script to determine which files are located in this area and extract them 
+ to a destination folder, for example so you could preserve them and delete
+ the rest of the world.
+ 
 
 ## Caveats
 
