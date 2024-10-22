@@ -1,4 +1,4 @@
-# mapReset.py
+# mapextract.py
 
 This very simple script allows you to extract portions of a Project Zomboid
  map by simply providing X,Y co-ordinates as well as chunk references.
