@@ -1,8 +1,9 @@
 {
     "path":             "/home/steam/Zomboid/Saves/Multiplayer/servertest",
+    "output_path":      "/home/steam/Zomboid/Saves/ExtractedChunks/",
     "logs": {
         "save":         true,
-        "path":         "/home/steam/logs/mapreset.log"
+        "path":         "/home/steam/logs/mapextract.log"
     },
     "regions": [
         {
